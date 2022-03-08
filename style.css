@@ -3,130 +3,162 @@ body{
 
 
 position: absolute;
-width: 720px;
-height: 975px;
-
-background: rgba(58, 197, 163, 0.77); 
-}
-header{  
-
-    position: absolute;
-    width: 1344px;
-    height: 401px;
-
-
- }
-.Nombre{
-    /* Nombre */
-
-
-position: absolute;
 width: 1440px;
-height: 55px;
+height: 1000px;
 left: 0px;
 top: 0px;
 
-background: #31C4CD;
-border: 2px solid #000000;
-box-sizing: border-box;
+background: url(Images/tamanna-rumee-tYnnY7gKyZs-unsplash.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+
+header{
+
+/* Encabezado */
+
+
+position: absolute;
+width: 1348px;
+height: 300px;
+left: 51px;
+top: 0px;
+
+
+
 }
+.FondoTexto{
+/* FondoTexto */
+
+position: absolute;
+width: 1000px;
+height: 200px;
+left: 51px;
+top: 33px;
+
+background: #C4C4C4;
+border-radius: 25px;
+
+}
+.Fotografia{
+
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 1099px;
+top: 0px;
+
+background: url(Images/image\ 1.png);
+}
+
 .Contenido{
-  /* Contenido */
+    /* Contenido */
 
 
 position: absolute;
 width: 1279px;
-height: 805px;
+height: 500px;
+left: 81px;
+top: 0px;
+
 }
-.Formacion{ 
-/* F1 */
+
+.TarjetaTalleres{
+    /* Rectangle 1 */
 
 
 position: absolute;
-width: 838px;
-height: 314px;
-left: 450px;
-top: 100px;
-background: rgba(40, 176, 206, 0.54);
-border-radius: 25px;
-}
-.Habilidades{ 
-/* Habilidades */
+width: 400px;
+height: 500px;
+left: 81px;
+top: 329px;
 
-
-position: absolute;
-width: 868px;
-height: 267px;
-left: 450px;
-
-top: 500px;
-
-background: rgba(40, 176, 206, 0.54);
+background: rgba(54, 176, 118, 0.5);
 border-radius: 25px;
 }
 
-.Hobbys{
-    position: absolute;
-width: 797px;
-height: 200px;
-left: 450px;
-top: 900px;
-background: rgba(40, 176, 206, 0.54);
+.TarjetaConsulta{
+/* TarjetaConsulta */
+
+
+position: absolute;
+width: 400px;
+height: 500px;
+left: 528px;
+top: 329px;
+
+
+background: rgba(238, 27, 128, 0.58);
 border-radius: 25px;
 }
-.Foto{ 
+
+.TarjetaRetos{
+
+    /* TarjetaRetos */
+
+
 position: absolute;
-width: 332px;
-height: 351px;
-left: 45px;
-top: 90px;
+width: 400px;
+height: 500px;
+left: 960px;
+top: 329px;
 
-background: url(fotocedula.png);
+background: rgba(210, 183, 39, 0.5);
+border-radius: 25px;
 }
-.Iformacion{
+
+.Copyright{
+  
+
+
+position: absolute;
+width: 1320px;
+height: 100px;
+left: 100px;
+top: 885px;
+
+    
+
+background: rgba(238, 27, 128, 0.58);
+border-radius: 25px;
+}
+.iconGif{
+    /* logos:git-icon */
+
+
+position: absolute;
+width: 80px;
+height: 80px;
+left:1200px;
+top: 10px;
+
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.iconNeo{
+    /* openmoji:cat-face */
+
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 1100px;
+top: 10px;
+
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Ref{
     
 position: absolute;
-width: 264px;
-height: 121px;
+width: 482px;
+height: 29px;
+left: 61.5px;
+top: 10px;
 
-background: url(Images/I2.png);
-}
-
-.Ihabilidades{
-    position: absolute;
-width: 87px;
-height: 91px;
-
-background: url(Images/mano.png);
-}
-.IHobbys{
-    
-position: absolute;
-width: 175px;
-height: 109px;
-
-background: url(Images/avion.png);
-}
-.Nombre2{
-    
-    position: absolute;
-    width: 477px;
-    height: 22px;
-    left: 481px;
-    top: 5px;
-    
-    }
-    .Direccion{
-        position: absolute;
-width: 569px;
-height: 228px;
-
-left: 30px;
-top: 500px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 300;
-font-size: 24px;
-line-height: 28px;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
 
-    }
+}
