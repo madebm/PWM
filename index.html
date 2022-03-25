@@ -1,70 +1,375 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+	<title>Sopa de Letras</title>
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio programacion web </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-       <section class="FondoTexto">
-        <center>
-            <h1>María de los Ángeles Brito </h1>
-            <h2>"The programation is a world of imagination"</h2>
-        </center>
-         
-       </section>
-       <img class="Fotografia" src="Images/fotocedula.png" alt="FotoProgramador">
-   </header> 
-   <section class="Contenido">
-       <article class="TarjetaTalleres">
-         
-            <h2>Talleres
-         
-               <ul>
-                   <li>Taller 1: <a href="https://mdbrito.neocities.org/CV/index.html">Hoja de vida</a></li>
-                   <li>Taller 2</li>
-                   <li>Taller 3</li>
-                   <li>Taller 4</li>
-               </ul>
-           </h2>
-       </article>
-       <article class="TarjetaConsulta">
-           <h2>Consultas
-        <ul>
-            <li>Consulta 1</li>
-            <li>Consulta 2</li>
-            <li>Consulta 3</li>
-            <li>Consulta 4</li>
-        </ul>
-    </h2></article>
-       <article class="TarjetaRetos">
-        <h2>Retos
-            <ul>
-                <li>Reto 1</li>
-                <li>Reto 2</li>
-                <li>Reto 3</li>
-                <li>Reto 4</li>
-            </ul>
-        </h2>
-       </article>
-   </section>
-   <footer class="Copyright">
-       <article class="Ref">
-       <h4>Photo by <a href="https://unsplash.com/@tamanna_rumee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tamanna Rumee</a> on <a href="https://unsplash.com/s/photos/crayons?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-       </h4>
-    </article>
-   
-       <a class=iconGif href="https://github.com/madebm/PWM.git" target="blank"> 
-            <img src="Images/logos_git-icon.png" alt="GIT">
-   
-        </a>
-       
-     <a class=iconNeo href="https://mdbrito.neocities.org/" target="blank"> 
-          <img src="Images/openmoji_cat-face.png" alt="NEOCITIES"> 
-         </a> 
-   </footer>
+	<h1><i>Sopa de letras</i> </h1>
+		<h3>Palabras a encontrar:</h3>
+			<ul>
+				<li>JAVASCRIPT</li>
+				<li>PHP</li>
+				<li>LENGUAJE</li>
+				<li>PAGINA</li>
+				<li>APRENDO</li>
+					<li>DATA BASE</li>
+						<li>HTML</li>
+							<li>BUG</li> 
+								<li>HELLO</li>
+									<li>WORD</li>
+										<li>PROGRAMAR</li>
+											<li>PC</li>
+												<li>INTERNET</li>
+													<li>NAVEGADOR</li>
+														<li>SITIO</li>
+															<li>WEB</li>
+																<li>INTRANET</li>
+																	<li>SQL</li>
+																		<li>LAYOUT</li>
+																			<li>CSS</li>
+												
+							
+			</ul>
+	<form id= "espacio">
+
+	<table border="1" style="margin: 0 auto;">
+			<tr>
+				<th width="30" height="30" id="celda1" onclick="comprobar1()">J</th>
+				<th width="30" height="30" id="celda2" onclick="comprobar2()">A</th>
+				<th width="30" height="30" id="celda3" onclick="comprobar3()">V</th>
+				<th width="30" height="30" id="celda4" onclick="comprobar4()">A</th>
+				<th width="30" height="30" id="celda5" onclick="comprobar5()">S</th>
+				<th width="30" height="30" id="celda6" onclick="comprobar6()">C</th>
+				<th width="30" height="30" id="celda7" onclick="comprobar7()">R</th>
+				<th width="30" height="30" id="celda8" onclick="comprobar8()">I</th>
+				<th width="30" height="30" id="celda9" onclick="comprobar9()">P</th>
+				<th width="30" height="30" id="celda10" onclick="comprobar10()">T</th>
+				<th width="30" height="30" >Z</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">M</th>
+				<th width="30" height="30">N</th>
+				<th width="30" height="30">K</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">P</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">C</th>
+				<th width="30" height="30" id="celdaB10" onclick="comprobarB10()">H</th>
+				<th width="30" height="30">L</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">p</th>
+				<th width="30" height="30">C</th>
+				<th width="30" height="30">S</th>
+				<th width="30" height="30">S</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30" id="celdaC6" onclick="comprobarC6()">E</th>
+				<th width="30" height="30">U</th>
+				<th width="30" height="30">W</th>
+				<th width="30" height="30">X</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30" id="celdaC11" onclick="comprobarC11()">P</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">J</th>
+				<th width="30" height="30">C</th>
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30" id="celdaD6" onclick="comprobarD6()">J</th>
+				<th width="30" height="30">F</th>
+				<th width="30" height="30">W</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">I</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30" id="celdaE1" onclick="comprobarE1()">P</th>
+				<th width="30" height="30" id="celdaE2" onclick="comprobarE2()">A</th>
+				<th width="30" height="30" id="celdaE3" onclick="comprobarE3()">G</th>
+				<th width="30" height="30" id="celdaE4" onclick="comprobarE4()">I</th>
+				<th width="30" height="30" id="celdaE5" onclick="comprobarE5()">N</th>
+				<th width="30" height="30" id="celdaE6" onclick="comprobarE6()">A</th>
+				<th width="30" height="30">J</th>
+				<th width="30" height="30">C</th>
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">O</th>
+
+			</tr>
+
+			<tr>
+				<th width="30" height="30">Z</th>
+				<th width="30" height="30">S</th>
+				<th width="30" height="30">Q</th>
+				<th width="30" height="30">L</th>
+				<th width="30" height="30">H</th>
+				<th width="30" height="30" id="celdaF6" onclick="comprobarF6()">U</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">V</th>
+				<th width="30" height="30">Z</th>
+				<th width="30" height="30">M</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">V</th>
+				<th width="30" height="30">Y</th>
+				<th width="30" height="30">N</th>
+				<th width="30" height="30">J</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30" id="celdaG6" onclick="comprobarG6()">G</th>
+				<th width="30" height="30">L</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">I</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">K</th>
+				<th width="30" height="30" id="celdaH6" onclick="comprobarH6()">N</th>
+				<th width="30" height="30">I</th>
+				<th width="30" height="30">Q</th>
+				<th width="30" height="30">F</th>
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">R</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">Q</th>
+				<th width="30" height="30" id="celdaI3" onclick="comprobarI3()">O</th>
+				<th width="30" height="30" id="celdaI4" onclick="comprobarI4()">D</th>
+				<th width="30" height="30" id="celdaI5" onclick="comprobarI5()">N</th>
+				<th width="30" height="30" id="celdaI6" onclick="comprobarI6()">E</th>
+				<th width="30" height="30" id="celdaI7" onclick="comprobarI7()">R</th>
+				<th width="30" height="30" id="celdaI8" onclick="comprobarI8()">P</th>
+				<th width="30" height="30" id="celdaI9" onclick="comprobarI9()">A</th>
+				<th width="30" height="30">Z</th>
+				<th width="30" height="30">F</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">H</th>
+				<th width="30" height="30">J</th>
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">C</th>
+				<th width="30" height="30">P</th>
+				<th width="30" height="30" id="celdaJ6" onclick="comprobarJ6()">L</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">X</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">Z</th>
+			</tr>
+
+			<tr>
+				<th width="30" height="30">I</th>
+				<th width="30" height="30">Z</th>
+				<th width="30" height="30">F</th>
+				<th width="30" height="30">Q</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">S</th>
+				<th width="30" height="30">I</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">U</th>
+				<th width="30" height="30">S</th>
+			</tr>
+			
+			<tr>
+				<th width="30" height="30">W</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">B</th>
+					<th width="30" height="30">L</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">M</th>
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">U</th>
+				<th width="30" height="30">G</th>
+		
+			</tr>
+			
+			
+			<tr>
+				<th width="30" height="30">H</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">M</th>
+				<th width="30" height="30">L</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">M</th>
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">U</th>
+				<th width="30" height="30">G</th>
+			</tr>
+	
+
+
+			<tr>
+			
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">B</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">S</th>
+				<th width="30" height="30">E</th>
+		<th width="30" height="30">Z</th>
+				<th width="30" height="30">X</th>
+				<th width="30" height="30">L</th>
+			
+</tr>
+
+
+
+			<tr>
+			
+				<th width="30" height="30">H</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">L</th>
+				<th width="30" height="30">L</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">P</th>
+				<th width="30" height="30">T</th>
+		<th width="30" height="30">Z</th>
+				<th width="30" height="30">J</th>
+				<th width="30" height="30">L</th>
+			
+</tr>
+
+
+			<tr>
+			
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">C</th>
+				<th width="30" height="30">W</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">W</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">D</th>
+		<th width="30" height="30">Z</th>
+				<th width="30" height="30">M</th>
+				<th width="30" height="30">I</th>
+			
+</tr>
+
+
+			<tr>
+			
+				<th width="30" height="30">P</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">G</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">M</th>
+				<th width="30" height="30">A</th>
+		<th width="30" height="30">R</th>
+				<th width="30" height="30">I</th>
+				<th width="30" height="30">O</th>
+			
+</tr>
+
+
+			<tr>
+			
+				<th width="30" height="30">I</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">I</th>
+				<th width="30" height="30">N</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">N</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">T</th>
+	
+				<th width="30" height="30">A</th>
+			
+</tr>
+
+
+
+	<tr>
+			
+				<th width="30" height="30">G</th>
+				<th width="30" height="30">N</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">V</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">G</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">D</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">R</th>
+	
+				<th width="30" height="30">I</th>
+			
+</tr>
+
+	<tr>
+			
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">P</th>
+				<th width="30" height="30">I</th>
+				<th width="30" height="30">N</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">R</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">N</th>
+				<th width="30" height="30">E</th>
+				<th width="30" height="30">T</th>
+	
+				<th width="30" height="30">Y</th>
+			
+</tr>
+
+<tr>
+			
+				<th width="30" height="30">U</th>
+				<th width="30" height="30">J</th>
+				<th width="30" height="30">W</th>
+				<th width="30" height="30">L</th>
+				<th width="30" height="30">A</th>
+				<th width="30" height="30">Y</th>
+				<th width="30" height="30">O</th>
+				<th width="30" height="30">U</th>
+				<th width="30" height="30">T</th>
+				<th width="30" height="30">T</th>
+	
+				<th width="30" height="30">Y</th>
+			
+</tr>
+				</table>
+
+
+	</form>
+	<br>
+	<FOOTER>Maria de los A Brito</FOOTER>
+	<script src="sopaLetras.js"></script>
 </body>
+
 </html>
