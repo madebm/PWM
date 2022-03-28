@@ -1,0 +1,41 @@
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+
+background: rgba(11, 179, 230, 0.856);  }
+header{  
+
+    position: absolute;
+    width: 1344px;
+    height: 401px;
+
+
+ }
+
+ .Titulo{
+     
+position: absolute;
+width: 874px;
+height: 217px;
+left: 481px;
+top: 124px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+ }
+
+
+ .Video{
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    left: 200px;
+    top: 150px;
+ }
