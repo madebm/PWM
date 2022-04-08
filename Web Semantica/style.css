@@ -1,0 +1,60 @@
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+
+background: rgba(7, 9, 114, 0.56);  }
+header{  
+
+    position: absolute;
+    width: 1344px;
+    height: 401px;
+
+
+ }
+
+ .Titulo{
+    position: absolute;
+    width: 874px;
+    height: 583px;
+    left: 100px;
+    top: 20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    
+ }
+
+ .Contenido{
+    position: absolute;
+    width: 1169px;
+    height: 176px;
+    left:10px;
+    top: 150px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    
+ }
+
+ .Foto{
+
+    position: absolute;
+width: 490px;
+height: 335px;
+left: 200px;
+top: 200px;
+
+background: url(Images/WebSemantica.jpg)
+ }
