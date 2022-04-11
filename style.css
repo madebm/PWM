@@ -1,165 +1,311 @@
 body{
-    /* Fondo */
 
-
-position: absolute;
+position: relative;
 width: 1440px;
-height: 1000px;
-left: 0px;
-top: 0px;
+height: 2178px;
 
-background: url(Images/tamanna-rumee-tYnnY7gKyZs-unsplash.jpg);
-background-size: cover;
-background-repeat: no-repeat;}
+background: rgba(221, 61, 205, 0.6);
+    
+}
 
 header{
 
-/* Encabezado */
+    position: absolute;
+    width: 1440px;
+    height: 230px;
+    left: 0px;
+    top: 0px;
+    
+    background:#D21988
+    ;
 
+    }
 
-position: absolute;
-width: 1348px;
-height: 300px;
-left: 51px;
-top: 0px;
+    .regresar{
 
+        position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 50px;
+    top: 40px;
+    
+    
+    }
 
-
-}
-.FondoTexto{
-/* FondoTexto */
-
-position: absolute;
-width: 1000px;
-height: 200px;
-left: 51px;
-top: 33px;
-
-background: #C4C4C4;
-border-radius: 25px;
-
-}
-.Fotografia{
+h1{
 
     position: absolute;
-width: 300px;
-height: 300px;
-left: 1099px;
-top: 0px;
-
-background: url(Images/image\ 1.png);
+    width: 527px;
+    height: 132px;
+    left: 457px;
+    top: 0px;
+    
+    font-family: 'Jacques Francois Shadow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 132px;
+    /* identical to box height */
+    
+    
+    color: #0D0C0C;
 }
 
-.Contenido{
-    /* Contenido */
 
-
-position: absolute;
-width: 1279px;
-height: 500px;
-left: 81px;
-top: 0px;
-
+.carta{
+    position: absolute;
+width: 235px;
+height: 376px;
+left: -25px;
+top: 294px;
+border-radius: 40px;
 }
 
-.TarjetaTalleres{
-    /* Rectangle 1 */
-
-
-position: absolute;
-width: 400px;
-height: 500px;
-left: 81px;
-top: 329px;
-
-background: rgba(54, 176, 118, 0.5);
-border-radius: 25px;
-}
-
-.TarjetaConsulta{
-/* TarjetaConsulta */
-
-
-position: absolute;
-width: 400px;
-height: 500px;
-left: 528px;
-top: 329px;
-
-
-background: rgba(238, 27, 128, 0.58);
-border-radius: 25px;
-}
-
-.TarjetaRetos{
-
-    /* TarjetaRetos */
-
-
-position: absolute;
-width: 400px;
-height: 500px;
-left: 960px;
-top: 329px;
-
-background: rgba(210, 183, 39, 0.5);
-border-radius: 25px;
-}
-
-.Copyright{
-  
-
-
-position: absolute;
-width: 1320px;
-height: 100px;
-left: 100px;
-
-top: 885px;
+.imagen{
+   
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 41px;
+    top: 0px;
 
     
-
-background: rgba(238, 27, 128, 0.58);
-border-radius: 25px;
-}
-.iconGif{
-    /* logos:git-icon */
-
-
-position: absolute;
-width: 80px;
-height: 80px;
-left:1200px;
-top: 10px;
-
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    transform: perspective(500px) rotateY(0deg);
+    text-align: center;
 }
 
-.iconNeo{
-    /* openmoji:cat-face */
-
-
-position: absolute;
-width: 80px;
-height: 80px;
-left: 1100px;
-top: 10px;
-
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.Ref{
+.carta section{
     
-position: absolute;
-width: 482px;
-height: 29px;
-left: 61.5px;
-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    padding: 10px;
+}
 
-font-family: Roboto;
+.carta .frente{
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 41px;
+    top: 0px;
+
+
+    border-radius: 40px;
+    transform: perspective(500px) rotateY(0deg);
+    text-align: center;
+
+}
+
+.frente p{
+    padding: 10px;
+    color: white;
+}
+
+.carta .atras{
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 41px;
+    top: 0px;
+    background: #ffffff;
+    border-radius: 40px;
+    transform: perspective(500px) rotateY(180deg);
+    text-align: center;
+    display: block;
+
+}
+
+.carta:hover .frente{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.carta:hover .atras{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+
+
+
+.text{
+
+    position: absolute;
+width: 208px;
+height: 192px;
+left: 30px;
+top: 80px;
+
+font-family: 'ABeeZee';
 font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 14px;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
 text-align: center;
 
+color: #000000;
+  }
+
+.carta2{
+
+  position: absolute;
+width: 238px;
+height: 376px;
+left: 280px;
+top: 0px;
+border-radius: 40px;
 }
+
+.carta3{
+
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 570px;
+    top: 0px;
+
+}
+  .carta4{
+
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 854px;
+  top: 0px;}
+
+  .carta5{
+
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 1140px;
+  top: 0px;}
+
+  .carta6{
+    position: absolute;
+width: 235px;
+height: 376px;
+left: 0px;
+top: 470px;
+
+}
+
+  .carta7{
+
+    position: absolute;
+  width: 238px;
+  height: 376px;
+  left: 280px;
+  top: 470px;}
+  
+  .carta8{
+  
+      position: absolute;
+      width: 235px;
+      height: 376px;
+      left: 570px;
+      top: 470px;
+  
+  }
+    .carta9{
+  
+      position: absolute;
+      width: 235px;
+      height: 376px;
+      left: 854px;
+      top: 470px;}
+  
+    .carta10{
+  
+      position: absolute;
+      width: 235px;
+      height: 376px;
+      left: 1140px;
+      top: 470px;}
+
+      
+  .carta11{
+    position: absolute;
+width: 235px;
+height: 376px;
+left: 0px;
+top: 940px;
+
+}
+
+  .carta12{
+
+    position: absolute;
+  width: 238px;
+  height: 376px;
+  left: 280px;
+  top: 940px;}
+  
+  .carta13{
+  
+      position: absolute;
+      width: 235px;
+      height: 376px;
+      left: 570px;
+      top: 940px;;
+  
+  }
+    .carta14{
+  
+      position: absolute;
+      width: 235px;
+      height: 376px;
+      left: 854px;
+      top: 940px;}
+  
+    .carta15{
+  
+      position: absolute;
+      width: 235px;
+      height: 376px;
+      left: 1140px;
+      top: 940px;}
+
+      
+      .carta16{
+        position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 0px;
+    top: 1420px;
+    
+    }
+    
+      .carta17{
+    
+        position: absolute;
+      width: 238px;
+      height: 376px;
+      left: 280px;
+      top: 1420px;}
+      
+      .carta18{
+      
+          position: absolute;
+          width: 235px;
+          height: 376px;
+          left: 570px;
+          top: 1420px;
+      
+      }
+        .carta19{
+      
+          position: absolute;
+          width: 235px;
+          height: 376px;
+          left: 854px;
+          top: 1420px;}
+      
+        .carta20{
+      
+          position: absolute;
+          width: 235px;
+          height: 376px;
+          left: 1140px;
+          top: 1420px;}
