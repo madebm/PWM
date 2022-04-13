@@ -1,0 +1,64 @@
+body{
+
+    
+
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(Images/Fondo.png);
+
+}
+.Boton{
+    position: absolute;
+    width: 438px;
+    height: 89px;
+    left: 922px;
+    top: 176px;
+    
+}
+.Logo{
+    
+position: absolute;
+width: 186px;
+height: 171px;
+left: 342px;
+top: 102px;
+background: url(Images/Logo.png);
+
+}
+.I1{
+    position: absolute;
+width: 936px;
+height: 615px;
+top:365px;
+left: 630px;
+background: url(Images/I1.png);
+}
+
+.Eslogan{
+    
+position: absolute;
+width: 741.27px;
+height: 532px;
+left: -21px;
+top: 318px;
+
+
+background: url(Images/Eslogan.png);
+
+}
+
+.Fondo{
+    position: absolute;
+width: 1440px;
+height: 1024px;
+left: 163px;
+top: 72px;
+
+
+}

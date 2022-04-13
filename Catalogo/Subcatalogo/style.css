@@ -1,0 +1,53 @@
+body{
+    
+position: relative;
+width: 1440px;
+height: 1024px;
+
+
+
+}
+
+
+.JS{
+    position: absolute;
+width: 326px;
+height: 378px;
+top: 85px;
+left: 763px;
+background: url(Images/JS.png
+);
+}
+.CSS{
+    
+    position: absolute;
+    width: 289px;
+    height: 378px;
+    left:316px ;
+    top: 85px;
+    background: url(images/CSS.png);
+    }
+    .HTML{
+        position: absolute;
+        width: 289px;
+        height: 378px;
+        top: 543px;
+        left: 316px;
+        background: url(Images/HTML.png);
+    }
+    .PHP{
+        position: absolute;
+width: 306px;
+height: 384px;
+left:763px ;
+top:551px ;
+background: url(Images/PHP.png);
+    }
+    .Logo{
+        position: absolute;
+width: 228px;
+height: 234px;
+left: 1176px;
+top: 329px;
+
+    }
