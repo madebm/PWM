@@ -1,0 +1,82 @@
+body{
+
+    
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(Images/Fondo.png);
+
+}
+
+.Boton1{
+    
+    
+position: absolute;
+width: 204px;
+height: 87px;
+left: 698px;
+top: 59px;
+
+}
+.EIZ{
+    
+position: absolute;
+width: 615px;
+height: 309px;
+left: 0px;
+top: 0px;
+background: url(Images/Rectangle\ 3.png
+);
+}
+.EDe{
+    position: absolute;
+    width: 615px;
+    height: 309px;
+    left: 900px;
+    top: 1022.41px;
+    
+background: url(Images/ED.png)
+}
+.I1{
+    position: absolute;
+width: 748px;
+height: 463px;
+left: 52px;
+top: 481px;
+background: url(Images/I1.png);
+}
+.Boton2{
+    position: absolute;
+width: 242px;
+height: 61px;
+left: 1117px;
+top: 72px;
+
+}
+.Eslogan{
+    
+    position: absolute;
+    width: 736px;
+    height: 413px;
+    left: 698px;
+    top: 340px;
+    
+    
+background: url(Images/Eslogan.png);
+}
+.Icono{
+    
+position: absolute;
+width: 318px;
+height: 110px;
+left: 388px;
+top: 300px;
+background: url(Images/Icono.png);
+
+}
+

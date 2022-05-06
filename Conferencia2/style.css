@@ -1,0 +1,38 @@
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+background: url(Images/Fondo.png);
+}
+.Conferencia{
+    position: absolute;
+width: 350px;
+height: 484px;
+left: 96px;
+top: 247px;
+background: url(Images/Conferencia.png);
+}
+.Calendario{
+    position: absolute;
+    width: 350px;
+    height: 484px;
+    top: 247px;
+    left: 530px;
+background:url(Images/Calendario.png);
+}
+.Contactanos{
+    position: absolute;
+width: 350px;
+height: 484px;
+left: 960px;
+top: 247px;
+background: url(Images/Contactanos.png);
+}
+.Icono{
+    position: absolute;
+width: 318px;
+height: 110px;
+left: 1000px;
+top: 856px;
+background: url(Images/Icono.png);
+}
