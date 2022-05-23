@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopa de letras</title>
+</head>
+<body>
+    <section class="contenedor">
+   <div class="contenedor1" >
+        <h1 class="titulo">SOPA DE LETRAS</h1>
+       
+    </div>
+
+    <div class="contenedor2">
+	    <div id = "wordboard"></div>
+		<div id = "wordlist"></div>
+            <div class="botones">
+                <button id = "solveButton" type = "button">Solucionar</button>
+                <button id = "newGameButton" type = "button">Reiniciar</button>
+            </div>
+       
+
+        <link rel = "stylesheet" type="text/css" href = "style.css">
+        <script src = https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+
+		<script src = "path.js"></script>
+		<script src = "words.js"></script>
+		<script src = "array.js"></script>
+		<script src = "functions.js"></script>
+
+        <script>	
+			$(document).ready( function() {
+				new WordSearchController("#wordboard", "#wordlist", "#solveButton", "#newGameButton");
+			})
+		</script>
+    </div>
+
+    </section>
+ 
+
+	
+</body>
+</html>
