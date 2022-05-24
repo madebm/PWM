@@ -1,70 +1,107 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio programacion web </title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicios javascript</title>
 </head>
 <body>
-   <header>
-       <section class="FondoTexto">
-        <center>
-            <h1>María de los Ángeles Brito </h1>
-            <h2>"The programation is a world of imagination"</h2>
-        </center>
-         
-       </section>
-       <img class="Fotografia" src="Images/fotocedula.png" alt="FotoProgramador">
-   </header> 
-   <section class="Contenido">
-       <article class="TarjetaTalleres">
-         
-            <h2>Talleres
-         
-               <ul>
-                   <li>Taller 1: <a href="https://mdbrito.neocities.org/CV/index.html">Hoja de vida</a></li>
-                   <li>Taller 2: <a href="https://www.figma.com/file/Q9JiH3lcPpbKl0XfKyMOY6/CV?node-id=0%3A1">Hoja de vida Figma</a></li>
-                   <li>Taller 3:<a href="https://mdbrito.neocities.org/Video/index.html">Video sobre mi</a></li>
-                   <li>Taller 4</li>
-               </ul>
-           </h2>
-       </article>
-       <article class="TarjetaConsulta">
-           <h2>Consultas
-        <ul>
-            <li>Consulta 1:  <a href="https://mdbrito.neocities.org/Consultas/DOM/index.html">Modelo DOM</a></li>
-            <li>Consulta 2:  <a href="https://mdbrito.neocities.org/Consultas/LandingPage/index.html">Landing Page</a></li>
-            <li>Consulta 3</li>
-            <li>Consulta 4</li>
-        </ul>
-    </h2></article>
-       <article class="TarjetaRetos">
-        <h2>Retos
-            <ul>
-                <li>Reto 1: <a href="https://mdbrito.neocities.org/SopaLetras/SopadeLetras.html">Sopa de letras</a></li>
-                <li>Reto 2</li>
-                <li>Reto 3</li>
-                <li>Reto 4</li>
-            </ul>
-        </h2>
-       </article>
-   </section>
-   <footer class="Copyright">
-       <article class="Ref">
-       <h4>Photo by <a href="https://unsplash.com/@tamanna_rumee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tamanna Rumee</a> on <a href="https://unsplash.com/s/photos/crayons?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-       </h4>
+
+    <h1>Ejercicios con javascript</h1>
+
+    <article class="contenedor">
+
+        <section>
+            <p> 1 - Solicita un nombre, la edad y muestra por consola el mensaje "Hola ____, tienes ____ años y el año que viene tendrás ____ años"
+                Realiza el ejercicio con prompt(mensaje) y haz uso de los template strings                
+            </p>
+            <button name="punto1" onClick="punto1()" >Ejecutar</button>
+        </section>
+
+        <section>
+            <p> 2 - Escribe un programa que pueda calcular el área de 3 figuras geométricas, triángulo, rectángulo y círculo. En primer lugar pregunta de qué figura se quiere calcular el área, después solicita los datos que necesites para calcularlo.
+                triángulo = b * h/2
+                rectángulo = b * h
+                círculo = π * r2 (pi * radio al cuadrado)
+            </p>
+            <button name="punto2" onClick="punto2()" >Ejecutar</button>
+        </section>
+        <section>
+            <p> 3 - Solicita un número e imprime todos los números pares e impares desde 1 hasta ese número con el mensaje "es par" o "es impar"
+                si el número es 5 el resultado será:
+                    1 - es impar
+                    2 - es par
+                    3 - es impar
+                    4 - es par
+                    5 - es impar
+            </p>
+            <button onClick="punto3()" >Ejecutar</button>
+        </section>
+        <section>
+            <p> 4 - Escribe un programa que pida un número entero mayor que 1 y que escriba si el número primo o no.
+                Un número primo es aquel que solo es divisible por sí mismo y la unidad
+            </p>
+            <button name="punto2" onClick="punto4()" >Ejecutar</button>
+        </section>
+        <section>
+            <p> 5 - Escriba un programa que pida un número entero mayor que cero y calcule su factorial.
+                El factorial es el resultado de multiplicar ese número por sus anteriores hasta la unidad.
+            
+                !5 = 5*4*3*2*1 = 120
+            </p>
+            <button name="punto2" onClick="punto5()" >Ejecutar</button>
+        </section>
+        <section>
+            <p>6 - Escribe un programa que permita ir introduciendo una serie indeterminadade números mientras su suma no supere 50.
+                Cuando esto ocurra, se debe mostrar el total acumulado y el contador de cuantos números se han introducido
+            </p>
+            <button name="punto2" onClick="punto6()" >Ejecutar</button>
+        </section>
+        <section>
+            <p>7 - Crea 3 arrays. El primero tendra 5 números y el segundo se llamará pares y el tercero impares, ambos estarán vacíos. Después multiplica cada uno de los números del primer array por un número aleatorio entre 1 y 10, si el resultado es par guarda ese número en el array de pares y si es impar en el array de impares. Muestra por consola:
+                -la multiplicación que se produce junto con su resultado con el formato 2 x 3 = 6
+                -el array de pares e impares
+            </p>
+            <button name="punto2" onClick="punto7()" >Ejecutar</button>
+        </section>
+        <section>
+            <p>8 - Dado un array de letras, solicita un número de DNI y calcula que letra le corresponde. El número no puede ser negativo ni tener más de 8 dígitos.
+                La posición de la letra es el resultado del módulo del número introducido entre 23 <br>
+               
+               const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+            </p>
+            <button name="punto2" onClick="punto8()" >Ejecutar</button>
+        </section>
+
+        <section>
+            <p> 9 - Solicitar al usuario una palabra y mostrar por consola el número de consonantes, vocales y longitud 
+            de la palabra.
+            </p>
+            <form>
+                <input type="text" name="cnombre" placeholder="Ingresa una palabra">
+                <input type="button" value="Enviar" onClick=muestra(this.form.cnombre);>
+            </form>
+        </section>
+
+        <section>
+            <p>10 - Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "rosa"] determinar si un color
+            introducido por el usuario a través de un prompt se encuentra dentro del array o no.
+            </p>
+            <button name="punto10" onClick="array()" >Ejecutar</button>
+
+        </section>
+
+
     </article>
-   
-       <a class=iconGif href="https://github.com/madebm/PWM.git" target="blank"> 
-            <img src="Images/logos_git-icon.png" alt="GIT">
-   
-        </a>
-       
-     <a class=iconNeo href="https://mdbrito.neocities.org/" target="blank"> 
-          <img src="Images/openmoji_cat-face.png" alt="NEOCITIES"> 
-         </a> 
-   </footer>
+
+
+
+     
+
+
+
+    <script src="js.js"></script>
 </body>
 </html>

@@ -1,165 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
 body{
-    /* Fondo */
-
-
-position: absolute;
-width: 1440px;
-height: 1000px;
-left: 0px;
-top: 0px;
-
-background: url(Images/tamanna-rumee-tYnnY7gKyZs-unsplash.jpg);
-background-size: cover;
-background-repeat: no-repeat;}
-
-header{
-
-/* Encabezado */
-
-
-position: absolute;
-width: 1348px;
-height: 300px;
-left: 51px;
-top: 0px;
-
-
-
-}
-.FondoTexto{
-/* FondoTexto */
-
-position: absolute;
-width: 1000px;
-height: 200px;
-left: 51px;
-top: 33px;
-
-background: #C4C4C4;
-border-radius: 25px;
-
-}
-.Fotografia{
-
-    position: absolute;
-width: 300px;
-height: 300px;
-left: 1099px;
-top: 0px;
-
-background: url(Images/image\ 1.png);
+    background-color: #7EBDC2 ;
+    width: 100%;
+    align-items: center;
+    background-image: url(Images/Fondo.jpg);
+    background-size: cover;
+   
 }
 
-.Contenido{
-    /* Contenido */
-
-
-position: absolute;
-width: 1279px;
-height: 500px;
-left: 81px;
-top: 0px;
-
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.TarjetaTalleres{
-    /* Rectangle 1 */
+.contenedor section{
+    background: rgba(238, 27, 128, 0.4);
+    width: 70%;
 
-
-position: absolute;
-width: 400px;
-height: 500px;
-left: 81px;
-top: 329px;
-
-background: rgba(54, 176, 118, 0.5);
-border-radius: 25px;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
 }
 
-.TarjetaConsulta{
-/* TarjetaConsulta */
-
-
-position: absolute;
-width: 400px;
-height: 500px;
-left: 528px;
-top: 329px;
-
-
-background: rgba(238, 27, 128, 0.58);
-border-radius: 25px;
-}
-
-.TarjetaRetos{
-
-    /* TarjetaRetos */
-
-
-position: absolute;
-width: 400px;
-height: 500px;
-left: 960px;
-top: 329px;
-
-background: rgba(210, 183, 39, 0.5);
-border-radius: 25px;
-}
-
-.Copyright{
-  
-
-
-position: absolute;
-width: 1320px;
-height: 100px;
-left: 100px;
-
-top: 885px;
-
+h1{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff;
+    text-shadow: 0.001em 0.02em 0.6em rgb(0, 0, 0);
     
-
-background: rgba(238, 27, 128, 0.58);
-border-radius: 25px;
-}
-.iconGif{
-    /* logos:git-icon */
-
-
-position: absolute;
-width: 80px;
-height: 80px;
-left:1200px;
-top: 10px;
-
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.iconNeo{
-    /* openmoji:cat-face */
-
-
-position: absolute;
-width: 80px;
-height: 80px;
-left: 1100px;
-top: 10px;
-
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+section{
+    text-align: center;
+    font-family: 'Bad Script', sans-serif;
+    color: #000000;
+   font-weight: bold;
 }
-.Ref{
+
+.contenedor section:hover{
+    background-color: #f4f2f3e7;
+    width: 70%;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0.001em 0.02em 1em rgba(131, 131, 131, 0.747);
     
-position: absolute;
-width: 482px;
-height: 29px;
-left: 61.5px;
-top: 10px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 14px;
-text-align: center;
-
 }
